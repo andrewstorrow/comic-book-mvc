@@ -78,6 +78,7 @@
     <Compile Include="Models\Series.cs" />
     <Compile Include="Data\Data.cs" />
     <Compile Include="Data\SeriesRepository.cs" />
+    <Compile Include="Controllers\SeriesController.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
@@ -103,6 +104,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Views\ComicBooks\Index.cshtml" />
+    <Content Include="Views\Series\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.10.2.min.map" />

@@ -14,6 +14,7 @@ namespace ComicBookMVC.Controllers
             _comicBookRepository = new ComicBookRepository();
         }
 
+        // GET: ComicBooks
         public ActionResult Index()
         {
             var comicBooks = _comicBookRepository.GetComicBooks();
@@ -21,6 +22,7 @@ namespace ComicBookMVC.Controllers
             return View(comicBooks);
         }
 
+        // GET: ComicBooks/Detail/Id
         public ActionResult Detail(int? id)
         {
             if(id == null)
