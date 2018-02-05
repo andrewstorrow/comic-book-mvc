@@ -24,5 +24,20 @@ namespace ComicBookMVC.Controllers
 
             return View(series);
         }
+
+        // GET: Series/Detail/1
+        public ActionResult Detail(int? id)
+        {
+            if (id == null)
+            {
+                return HttpNotFound();
+            }
+
+            var series = _seriesRepository.GetSeriesDetail((int)id);
+
+            return View(series);
+        }
     }
+
+
 }
