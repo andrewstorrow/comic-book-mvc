@@ -76,6 +76,7 @@
     <Compile Include="Models\Artist.cs" />
     <Compile Include="Data\ComicBookRepository.cs" />
     <Compile Include="Models\Series.cs" />
+    <Compile Include="Data\Data.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Web.config" />
