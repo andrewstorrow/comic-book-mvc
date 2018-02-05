@@ -7,6 +7,5 @@ namespace ComicBookMVC.Models
         public string Title { get; set; }
         public string DescriptionHtml { get; set; }
         public ComicBook[] Issues { get; set; }
-
     }
 }
