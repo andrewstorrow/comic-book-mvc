@@ -106,6 +106,7 @@
     <Content Include="Views\ComicBooks\Index.cshtml" />
     <Content Include="Views\Series\Index.cshtml" />
     <Content Include="Views\Series\Detail.cshtml" />
+    <Content Include="Views\Shared\_ComicBooksList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-1.10.2.min.map" />

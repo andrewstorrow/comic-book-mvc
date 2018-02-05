@@ -80,7 +80,39 @@ namespace ComicBookMVC.Data
                         new Artist() { Name = "Jeff Smith", Role = "Letters" }
                     },
                     Favorite = false
-                }
+                },
+                new ComicBook()
+                {
+                    Id = 4,
+                    Series = series[0],
+                    IssueNumber = 700,
+                    DescriptionHtml = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives... <strong>will Peter Parker?</strong></p>",
+                    Artists = new Artist[]
+                    {
+                        new Artist() { Name ="Dan Slott", Role="Script" },
+                        new Artist() { Name ="Humberto Ramos", Role="Pencils" },
+                        new Artist() { Name ="Victor Olazaba", Role="Inks" },
+                        new Artist() { Name ="Edgar Delgado", Role="Colors" },
+                        new Artist() { Name ="Chris Eliopoulos", Role="Letters" }
+                    },
+                    Favorite = false
+                },
+                new ComicBook()
+                {
+                    Id = 5,
+                    Series = series[0],
+                    IssueNumber = 657,
+                    DescriptionHtml = "<p><strong>FF: THREE TIE-IN.</strong> Spider-Man visits the FF for a very private wake--just for family.</p>",
+                    Artists = new Artist[]
+                    {
+                        new Artist() { Name = "Dan Slott", Role = "Script" },
+                        new Artist() { Name = "Marcos Martin", Role = "Pencils" },
+                        new Artist() { Name = "Marcos Martin", Role = "Inks" },
+                        new Artist() { Name = "Muntsa Vicente", Role = "Colors" },
+                        new Artist() { Name = "Joe Caramagna", Role = "Letters" }
+                    },
+                    Favorite = false
+                },
             };
 
             Series = series;
